@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahcent D Luxe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="video-container">
+        <video autoplay loop muted id="bg-video">
+            <source src="Chanel Coco Mademoiselle _ Perfume B-Roll.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="video-overlay"></div>
+    </div>
+
+    <div class="container">
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="#" class="logo">Rahcent <span>D Luxe</span></a>
+
+                <div class="nav-links" id="navLinks">
+                    <a href="#home" class="Active">Home</a>
+                    <a href="#shop" class="Active">Shop</a>
+                    <a href="#Collections" class="Active">Collections</a>
+                    <a href="#Best sellers" class="Active">Best sellers</a>
+                    <a href="#About" class="Active">About</a>
+                    <a href="#Contact" class="Active">Contact</a>
+                </div>
+
+                <div class="nav-icons">
+                    <a href="#" class="nav-icon"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="#" class="nav-icon cart-icon">
+                        <i class="fa-solid fa-user"></i>
+                        <span class="cart-count">0</span>
+                    </a>
+                    <a href="#" class="nav-icon"><i class="fa-solid fa-bag-shopping cart-icon"></i></a>
+                    <button class="hamburger" id="hamburger">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+        <section class="hero" id="home">
+            <div class="home-content">
+                <h1 class="gradient-heading">Discover Your Wonderful <span>Taste Of Fragrances</span></h1>
+                <p class="hero-subtitle">Experience A Bizzar Feeling Of Luxury With our exclusive Collections....</p>
+                <div class="hero-button">
+                    <a href="#shop" class="btn btn-primary">Shop New</a>
+                    <a href="#collections" class="btn btn-secondary">Explore Collections</a>
+                </div>
+            </div>
+            <div class="perfume-bottle">
+                <img src="Ex/Pef 7.png" alt="Exclusive Perfume Bottle" width="600" height="650">
+            </div>
+        </section>
+
+        <section class="categories" id="categories">
+            <h2 class="section-title">Featured <span>Categories</span></h2>
+            <div class="category-grid">
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fa-solid fa-person"></i>
+                    </div>
+                    <h3>For Men</h3>
+                    <p>Bold, Sophisticated Fragrances</p>
+                    <a href="#" class="category-link">Explore <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fa-solid fa-female"></i>
+                    </div>
+                    <h3>For Women</h3>
+                    <p>Elegant, Captivating Scents</p>
+                    <a href="#" class="category-link">Explore <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fa-solid fa-gem"></i>
+                    </div>
+                    <h3>Oud Collection</h3>
+                    <p>Rare, Exotic oud Fragrances</p>
+                    <a href="#" class="category-link">Explore <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fa-solid fa-gifts"></i>
+                    </div>
+                    <h3>Gift Set</h3>
+                    <p>Perfect Presents, Beautifully Packaged</p>
+                    <a href="#" class="category-link">Explore <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="products" id="best sellers">
+            <h2 class="section-title">Best <span>Seller</span></h2>
+            <div class="product-grid">
+
+                <!-- product - 1 -->
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="men/man 1.jpg" alt="">
+                        <div class="product-overlay">
+                            <button class="add-to-cart" data-product="Sauvage">Add to cart</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Sauvage</h3>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half"></i>
+                            <span>4.5</span>
+                        </div>
+                        <p class="product-desc">In the wild, everything is always in front of you</p>
+                        <p class="price">$120.00</p>
+                    </div>
+                </div>
+
+                <!-- product - 2 -->
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="men/m 7.jpg" alt="">
+                        <div class="product-overlay">
+                            <button class="add-to-cart" data-product="Bleu De Chanel">Add to cart</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Bleu De Chanel</h3>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>5.0</span>
+                        </div>
+                        <p class="product-desc">ode to masculine freedom</p>
+                        <p class="price">$205.00</p>
+                    </div>
+                </div>
+
+                <!-- product - 3 -->
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="fe/fe 11.jpg" alt="">
+                        <div class="product-overlay">
+                            <button class="add-to-cart" data-product="Versace Crystal">Add to cart</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Versace Crystal</h3>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>4.0</span>
+                        </div>
+                        <p class="product-desc">the scent of a dark and mysterious, very sensual and distinct scent</p>
+                        <p class="price">$148.00</p>
+                    </div>
+                </div>
+
+                <!-- product - 4 -->
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="fe/fe 4.jpg" alt="">
+                        <div class="product-overlay">
+                            <button class="add-to-cart" data-product="Elizabeth Arden Red Door">Add to cart</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Elizabeth Arden Red Door</h3>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half"></i>
+                            <span>4.5</span>
+                        </div>
+                        <p class="product-desc">classic fragrance designed to evoke glamour</p>
+                        <p class="price">$88.00</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="special-offer" id="Collections">
+            <div class="offer-content">
+                <h2 class="offer-title">Limited Time <span>Offer</span></h2>
+                <p class="offer-text">Get 20% Off On All Oud Collections.</p>
+                <p class="offer-expiry">Offer Valid Until 31st May, 2026</p>
+                <a href="#" class="btn btn-primary">Shop Now</a>
+            </div>
+        </section>
+
+        <section class="Why-Us">
+            <h2 class="section-title">Why <span>Choose Us</span></h2>
+            <div class="features">
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-leaf"></i>
+                    </div>
+                    <h3>Natural Ingredients</h3>
+                    <p>Finest Natural Essences Sourced Worldwide</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <h3>Love</h3>
+                    <p>Finest Fragrances That Showcase Several Feelings of Love</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-flask"></i>
+                    </div>
+                    <h3>Expert Craftmanship</h3>
+                    <p>Crafted By Master Perfumes With Decades Of Experience</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-award"></i>
+                    </div>
+                    <h3>Award winning</h3>
+                    <p>Recognised By The International Fragrance Foundation</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <h2 class="section-title">Client <span>Testimonials</span></h2>
+            <div class="tesimonial-container">
+                <div class="testimonial-slider">
+                    <div class="testimonial-slide active">
+                        <div class="testimonial-content">
+                            <p>Rahcent D Luxe Transformed Fragrance Collections</p>
+                            <div class="client-info">
+                                <h4>Mr. John D.</h4>
+                                <p>Social Influencer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="testimonial-content">
+                            <p>Authentic Oud Collection Praise</p>
+                            <div class="client-info">
+                                <h4>Cr7</h4>
+                                <p>Famouse Footballer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="testimonial-content">
+                            <p>Excellent Customer Service + Gift Help</p>
+                            <div class="client-info">
+                                <h4>Lebron J.</h4>
+                                <p>Famouse Basketballer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-control">
+                    <button class="testimonial-prev"><i class="fa-solid fa-chevron-left"></i></button>
+                    <div class="testimonial-dots">
+                        <span class="dot active" data-slide="0"></span>
+                        <span class="dot" data-slide="1"></span>
+                        <span class="dot" data-slide="2"></span>
+                    </div>
+                    <button class="testimonial-next"><i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="news-letter">
+            <div class="newsletter-content">
+                <h2>Subscribe To Our News Letter</h2>
+                <p>Be The First To Know About New Collections, Offers And Secrets</p>
+                <form id="newsletter-form">
+                    <div class="form-group">
+                        <input type="email" placeholder="Enter Your Email" required>
+                        <button type="Submit" class="btn btn-primary">Subscribe</button>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" id="Privacy-policy" required>
+                        <label for="Privacy-policy">I Agree To The Privacy-policy</label>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2 class="section-title">Get In <span>Touch</span></h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fa-solid fa-location-pin"></i>
+                        <div>
+                            <h3>Visit Our Boutique</h3>
+                            <p>123 Luxury Avenue, Abuja, Nigeria</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div>
+                            <h3>Email Us</h3>
+                            <p>Luxuryfragranceboutique@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fa-solid fa-clock"></i>
+                        <div>
+                            <h3>Opening Hours</h3>
+                            <p>Mon - Sat: 10AM - 8PM</p>
+                            <p>Sunday: 12PM - 6PM</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form action="" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <a href="#" class="logo">Rahcent <span>D Luxe</span></a>
+                    <p>Crafting Luxury Fragrances That Tell Your Unique Story Since 2024</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#shop">Shop</a></li>
+                        <li><a href="#collections">Collections</a></li>
+                        <li><a href="#bestsellers">Best Sellers</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Customer Service</h3>
+                    <ul>
+                        <li><a href="#">Shopping Policy</a></li>
+                        <li><a href="#">Return Policy</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>News Letter</h3>
+                    <p>Subscribe For Our Exclusive Updates</p>
+                    <form class="footer-form">
+                        <input type="email" placeholder="Your Email" required>
+                        <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&Copy; 2025 Rahcent D Luxe. All Rights Reserved</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="Script.js"></script>
+</body>
+
+</html>
